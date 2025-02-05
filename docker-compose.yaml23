@@ -1,0 +1,11 @@
+perplexica-frontend:
+    build:
+      context: .
+      dockerfile: app.dockerfile
+    args:
+      - NEXT_PUBLIC_API_URL=http://172.16.22.222:3001/api
+      - NEXT_PUBLIC_WS_URL=ws://172.16.22.222:3001 # Replace xxx.xxx.xxx.xx with your server's IP address
+    depends_on:
+      - perplexica-backend
+    ports:
+      - 3000:3000
