@@ -37,6 +37,7 @@ const EmptyChat = ({
         />
       </div>
       <div className="flex flex-col items-center justify-center min-h-screen max-w-screen-sm mx-auto p-2 space-y-8">
+	<img src="https://pbs.twimg.com/media/GjAlvyJaIAArtrt?format=jpg&name=medium" className="rounded-lg shadow-xl dark:shadow-gray-800 -mt-8"/>
         <h2 className="text-black/70 dark:text-white/70 text-3xl font-medium -mt-8">
           SeekGPT - Research begins here.
         </h2>

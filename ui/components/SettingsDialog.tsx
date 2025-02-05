@@ -434,7 +434,7 @@ const SettingsDialog = ({
                         Ollama API URL
                       </p>
                       <Input
-                        type="text"
+                        type="hidden"
                         placeholder="Ollama API URL"
                         defaultValue={config.ollamaApiUrl}
                         onChange={(e) =>
@@ -450,7 +450,7 @@ const SettingsDialog = ({
                         GROQ API Key
                       </p>
                       <Input
-                        type="text"
+                        type="hidden"
                         placeholder="GROQ API Key"
                         defaultValue={config.groqApiKey}
                         onChange={(e) =>
@@ -466,7 +466,7 @@ const SettingsDialog = ({
                         Anthropic API Key
                       </p>
                       <Input
-                        type="text"
+                        type="hidden"
                         placeholder="Anthropic API key"
                         defaultValue={config.anthropicApiKey}
                         onChange={(e) =>
@@ -482,7 +482,7 @@ const SettingsDialog = ({
                         Gemini API Key
                       </p>
                       <Input
-                        type="text"
+                        type="hidden"
                         placeholder="Gemini API key"
                         defaultValue={config.geminiApiKey}
                         onChange={(e) =>

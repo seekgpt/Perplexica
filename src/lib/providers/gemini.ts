@@ -28,14 +28,6 @@ export const loadGeminiChatModels = async () => {
           apiKey: geminiApiKey,
         }),
       },
-      'gemini-1.5-pro': {
-        displayName: 'Gemini 1.5 Pro',
-        model: new ChatGoogleGenerativeAI({
-          modelName: 'gemini-1.5-pro',
-          temperature: 0.7,
-          apiKey: geminiApiKey,
-        }),
-      },
     };
 
     return chatModels;
